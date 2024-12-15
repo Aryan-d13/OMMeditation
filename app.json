@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "MeditationAppFinal",
-    "slug": "MeditationAppFinal",
+    "name": "MeditationApp",
+    "slug": "MeditationApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,11 +18,20 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#ffffff",
+        "permissions": [
+          "CAMERA",
+          "WRITE_EXTERNAL_STORAGE",
+          "READ_EXTERNAL_STORAGE"
+        ]
+      },
+      "package": "com.aryan.d13.MeditationApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-video"
+    ]
   }
 }

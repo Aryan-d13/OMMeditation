@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "260504287597",
+    "project_id": "ommeditation-a71cc",
+    "storage_bucket": "ommeditation-a71cc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260504287597:android:45e6dffdc1cc1746b0c264",
+        "android_client_info": {
+          "package_name": "com.aryan.OMMeditation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp9y7SKCbiuypdsakIqhUl9i8EGzeSe_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
