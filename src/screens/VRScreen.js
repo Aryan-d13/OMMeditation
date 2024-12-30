@@ -6,14 +6,12 @@ const VRScreen = () => {
   return (
     <View style={styles.container}>
       <WebView
-        source={{ uri: 'https://meditation-vr-video.web.app/Ind.html' }} // Replace with the hosted HTML URL
+        source={{ uri: 'https://meditation-vr-video.web.app/Ind.html' }} 
         style={styles.webView}
-        allowsInlineMediaPlayback={true} // Enable inline playback
+        allowsInlineMediaPlayback={true} // Enable inline playback for videos
         mediaPlaybackRequiresUserAction={false} // Allow autoplay
-        javaScriptEnabled={true} // Enable JavaScript for WebXR
-        domStorageEnabled={true} // DOM storage for video assets
-        onError={(e) => console.error('WebView error: ', e.nativeEvent)}
-        onLoad={() => console.log('WebView loaded successfully')}
+        javaScriptEnabled={true} // Ensure JavaScript is enabled for WebXR
+        domStorageEnabled={true} // Enable DOM storage for assets
       />
     </View>
   );
